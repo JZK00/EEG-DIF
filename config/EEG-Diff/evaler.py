@@ -11,20 +11,20 @@ device = "cuda"
 
 dataset = dict(
     type=evaluationDataset,
-    csv_path='data/signals_r01.csv',  ## here, 没用
+    csv_path='data/signals_r01.csv',  ## here, no use
 )
 
 eval_config = dict(
     device=device,
-    csv_path='data/SCD_test.csv', ## eval set!!! 测试数据 
-    output_dir="caches/ventilation_v1/unet",  ## 没用
-    u_net_weight_path = 'caches/mitbih_af_v2/unet1/30000/unet.pth', ## Change it
-    prediction_point=8,  #Sampler窗口每次移动 window_size - num_prediction_point, here is 16-8=8.
+    csv_path='data/SCD_test.csv', ## eval set!!! test data 
+    output_dir="caches/ventilation_v1/unet",  ## no use
+    u_net_weight_path = 'caches/mitbih_af_v2/unet1/30000/unet.pth',  ## Change it
+    prediction_point=8,  ## Sampler window moves each time: window_size - num_prediction_point, here is 16-8=8.
     num_train_timesteps=200,
     plot_shifted = False,
-    window_size=16,  ##新加
+    window_size=16,  ##Change it
     ###########################################################################################
-    batch_size=1, ## Obsolete
+    batch_size=1,   ## Obsolete
     batch_index=0,
 )
 
