@@ -25,7 +25,7 @@ class EEGDiffEvaler:
         self.noise_scheduler = EEGDiffMR.build(noise_scheduler)
         #self.dataset = DVDR.build(dataset)
         self.dataset = evaluationDataset(csv_path=self.config.csv_path,window_size=self.config.window_size,step_size=self.config.window_size-self.config.prediction_point)  ##改动
-        data_title_string = "Temp,Humidity,PM1.0,PM2.5,PM10,CO2,Formaldehyde,TVOC,FVC	FEV1	PEF	PM1.0	PM2.5	PM10	CO2	Temp°C" #,F16,F17,F18,F19,F20,F21,F22,F23,F24,F25,F26,F27,F28,F29,F30
+        data_title_string = "F1,F2,F3,F4,F5,F6,F7,F8,F9,F10,F11,F12,F13,F14,F15,F16" #F16,F17,F18,F19,F20,F21,F22,F23,F24,F25,F26,F27,F28,F29,F30
         #data_title_string = "Middle_Temp,Middle-Humidity,PM1.0,PM2.5,PM10,CO2,Formaldehyde,TVOC,FVCL,FEV1L,FEV1FVC,FEF25,FEF50,FEF75,FEF25-75,PEFL,VCMAXL,VTL,ERVL,IRVL,ICL,VCINL,VCEXL,VCEXL"
         self.title_list = data_title_string.split(',')
         self.pipeline = DDIMPipeline(unet=self.unet, scheduler=self.noise_scheduler)
