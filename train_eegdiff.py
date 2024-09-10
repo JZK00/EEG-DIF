@@ -8,7 +8,7 @@ config = Config.fromfile(config_file_path)
 
 trainner = EEGDiffMR.build(config.trainner)
 
-key = None #Fill your key here
+key = 'a1c9d18c29f582d1f28a8e85102cf731a687817a' ## Fill your key here!
 
 assert key is not None, "please fill in your wandb key"
 
