@@ -46,3 +46,8 @@ You can use the following command to test your model.
 ```bash
 python test_eegdiff.py
 ```
+## Forcasting Results
+You can see some prediction results by using this code, like:
+![本地图片描述](images/Fig2-new.bmp)
+
+And you can also calculate the corresponding prediction metrics. You can save the generated future data locally and then run the classification code to carry out early diagnosis and warning of related diseases. Our code is an initial version that offers a novel solution and approach, and we welcome everyone to further improve and enhance it based on this foundation.
