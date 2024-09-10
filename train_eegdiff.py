@@ -2,7 +2,7 @@ from EEG import EEGDiffTrainner,EEGDiffMR,EEGDiffDR
 from mmengine import Registry,Config
 import wandb
 
-config_file_path = 'config/ventialtion_v1/trainner.py'
+config_file_path = 'config/EEG-Diff/trainner.py'
 
 config = Config.fromfile(config_file_path)
 
