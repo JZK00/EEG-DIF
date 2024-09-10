@@ -35,18 +35,18 @@ pip3 install torch torchvision torchaudio
 pip install -r requirements.txt
 ```
 
-## Model Trainning
+## Forecasting Model Training
 You can use the following command to train your model.
 ```bash
 python train_eegdiff.py
 ```
 
-## Model Testing
+## Forecasting Model Inference
 You can use the following command to test your model.
 ```bash
 python test_eegdiff.py
 ```
-## Forcasting Results
+## Forecasting Results
 You can see some prediction results by using this code, like:
 ![本地图片描述](images/Fig2-new.bmp)
 
