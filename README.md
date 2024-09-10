@@ -5,6 +5,8 @@ Early Warning of Epileptic Seizures through Generative Diffusion Model-based Mul
 
 Here, we provide a clean version of the EEG-DIF algorithm, allowing users to run the code on any EEG data to achieve future predictions for any time frame. This research is ongoing, and additional updates or code uploads will be made in the future.
 
+The EEG-DIF algorithm:
+![本地图片描述](images/Fig1-new.bmp)
 ## Installation
 This project is based on Pytorch.
 You can use the following command to install the Pytorch.
