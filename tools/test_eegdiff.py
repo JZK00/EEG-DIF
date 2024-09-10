@@ -1,7 +1,7 @@
 from EEG import EEGDiffMR
 from mmengine import Config
 
-config_file_path = 'config/ventialtion_v1/evaler.py'
+config_file_path = 'config/EEG-Diff/evaler.py'
 
 config = Config.fromfile(config_file_path)
 
