@@ -1,4 +1,4 @@
-# ventilation_systerm
+# EEG-DIF
 
 ## Introduction
 
