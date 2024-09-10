@@ -36,7 +36,12 @@ pip install -r requirements.txt
 ```
 
 ## Forecasting Model Training
-You can use the following command to train your model.
+You should shell your wandb key in:
+```bash
+/train_eegdiff.py
+```
+
+Then, you can use the following command to train your model.
 ```bash
 python train_eegdiff.py
 ```
