@@ -36,7 +36,7 @@ pip install -r requirements.txt
 ```
 
 ## Forecasting Model Training
-You should shell your wandb key in:
+You should fill your wandb key in:
 ```bash
 /train_eegdiff.py
 ```
