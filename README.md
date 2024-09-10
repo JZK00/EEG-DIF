@@ -1,6 +1,7 @@
 # EEG-DIF
 
 ## Introduction
+Early Warning of Epileptic Seizures through Generative Diffusion Model-based Multi-channel EEG Signals Forecasting.
 
 ## Installation
 This project is based on Pytorch.
