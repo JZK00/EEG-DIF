@@ -1,7 +1,9 @@
 # EEG-DIF
 
 ## Introduction
-Early Warning of Epileptic Seizures through Generative Diffusion Model-based Multi-channel EEG Signals Forecasting. Citation: Jiang Z, Dai W, Wei Q, et al. EEG-DIF: Early Warning of Epileptic Seizures through Generative Diffusion Model-based Multi-channel EEG Signals Forecasting[J]. arXiv preprint arXiv:2410.17343, 2024.
+Early Warning of Epileptic Seizures through Generative Diffusion Model-based Multi-channel EEG Signals Forecasting. 
+
+Citation: Jiang Z, Dai W, Wei Q, et al. EEG-DIF: Early Warning of Epileptic Seizures through Generative Diffusion Model-based Multi-channel EEG Signals Forecasting[J]. arXiv preprint arXiv:2410.17343, 2024. https://arxiv.org/abs/2410.17343
 
 Here, we provide a clean version of the EEG-DIF algorithm, allowing users to run the code on any EEG data to achieve future predictions for any time frame. This research is ongoing, and additional updates or code uploads will be made in the future.
 
