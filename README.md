@@ -7,11 +7,15 @@ Here, we provide a clean version of the EEG-DIF algorithm, allowing users to run
 
 The EEG-DIF algorithm:
 ![本地图片描述](images/Fig1-new.bmp)
+
+## Dataset
+Siena Scalp EEG Database (PhysioNet). You can download the datasets from https://physionet.org/content/siena-scalp-eeg/1.0.0/.
+
 ## Installation
 This project is based on Pytorch.
 You can use the following command to install the Pytorch.
 
-### create a virtual enviroment
+### Create a virtual enviroment
 ```bash
 conda create -n EEGDiff python=3.9
 conda activate EEGDiff
