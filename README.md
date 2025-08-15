@@ -71,4 +71,11 @@ If you find this repo useful for your research, please consider citing our paper
   pages={1--1},
   year={2024}
 }
-
+@article{jiang2025diffusion,
+  title={Diffusion Model-Based Multi-Channel EEG Representation and Forecasting for Early Epileptic Seizure Warning},
+  author={Jiang, Zekun and Dai, Wei and Wei, Qu and Qin, Ziyuan and Wei, Rui and Li, Mianyang and Chen, Xiaolong and Huo, Ying and Liu, Jingyun and Li, Kang and others},
+  journal={Interdisciplinary Sciences: Computational Life Sciences},
+  pages={1--12},
+  year={2025},
+  publisher={Springer}
+}
